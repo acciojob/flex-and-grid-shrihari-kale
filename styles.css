@@ -1,10 +1,13 @@
 /*  your css code here. If applicable */
+
+body{
+	background-color:rgb(250,250,250);
+}
 .card-container{
     display:grid;
 	grid-template-columns:repeat(3, 1fr);
 	gap:35px;
-	background-color:#fafafa;
-	
+	background-color:#fafafa;	
 }
 .card{
   width:240px;
@@ -43,12 +46,12 @@
 	color:white;
 }
 .title{
-	font-size:1.5em;
+	font-size:36px;
 	font-weight:bold;
 	margin-bottom:12px;
 }
 .description{
-	font-size:0.75em;
+	font-size:18px;
 	line-height:1.4;
 	margin-bottom:16px;
 	
